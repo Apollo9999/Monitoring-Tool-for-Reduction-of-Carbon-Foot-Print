@@ -28,7 +28,8 @@ How we built the Project are listed below
 Ideation to Prototype Stage Challenging Aspects are listed below
 
 1) Google Earth Engine is not so user friendly and exporting data from it is challenging
- 2)Identifying methane clusters was challenging. We think we can still improve the detection with more 3)complex logic by better including infrared and with more complex models
+2)Identifying methane clusters was challenging. We think we can still improve the detection with more 
+3)complex logic by better including infrared and with more complex models
 
 Solution possibilities are listed below
 1)Detect model for Methane hotspot linked to fossil infrastructure.
