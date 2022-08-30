@@ -16,33 +16,33 @@ The Project  tool motive and intent  uses satellite data from (Sentinel 5P and o
 An easy UI allows then everyone to look at recent methane events and get more information on what happens: criticality of event, size, location, visual images.
 
 We hope that gives an easy tool for people to track and then easily raise awareness on such events as they unfold
-How we built it
 
-    Use Google Earth Engine to access Methane (CH4), IR and wind data
-    Detect methane anomalous level and extract all hotspots
-    Link these "hotspots" to the fossil infrastructure (mines, plants and pipelines)
-    Assess the link between the event and the infrastructure and create a criticality score for events
-    Automate the pipeline using Azure function so it refreshes daily
-    Create a user-friendly UI to be able to monitor all events detected with all required contextual information
+How we built the Project are listed below
 
-Ideation to Prototype Stage Challenging Aspects 
+1)Use Google Earth Engine to access Methane (CH4), IR and wind data
+2)Detect methane anomalous level and extract all hotspots
+3)Link these "hotspots" to the fossil infrastructure (mines, plants and pipelines)
+4)Assess the link between the event and the infrastructure and create a criticality score for events
+5)Automate the pipeline using Azure function so it refreshes daily
 
- Google Earth Engine is not so user friendly and exporting data from it is challenging
- Identifying methane clusters was challenging. We think we can still improve the detection with more complex logic by better including infrared and with more complex models
+Ideation to Prototype Stage Challenging Aspects are listed below
 
-Solution possibilities 
-  Detect model for Methane hotspot linked to fossil infrastructure
-  Developed an E2E pipeline on Azure for daily refresh
-  An easy-to-use UI that run and gets refreshed automatically that can already be used
+1) Google Earth Engine is not so user friendly and exporting data from it is challenging
+ 2)Identifying methane clusters was challenging. We think we can still improve the detection with more 3)complex logic by better including infrared and with more complex models
 
-Latest Technologies Used 
+Solution possibilities are listed below
+1)Detect model for Methane hotspot linked to fossil infrastructure.
+2) Developed an E2E pipeline on Azure for daily refresh.
+3)An easy-to-use UI that run and gets refreshed automatically that can already be used.
 
-Working with Geosatellite data is difficult due to the size and geospatial subtleties
-Methane data is hard to access and any initiative to make it easier to work on it will be helpful to others.
+Latest And Evolving Technologies Used are described as follows
+
+1)Working with Geosatellite data is difficult due to the size and geospatial subtleties
+2)Methane data is hard to access and any initiative to make it easier to work on it will be helpful to others.
 
 
-Future Scope  for Reduction of Carbon and  Methane Leaks 
+Future Scope  for Monitoring and Reduction of Carbon Foot Print and  Methane Leaks are Listed as follows
 
-    Get feedback on current tools
-    Work on improving model and especially how to best link detected events with a precise source
-    Add a way to easily share detected hotspots to social medias (e.g. Twitter)
+ 1)Trying to Evaluate the performance  and get feedback on current tools
+ 2)Work on improving model and especially how to best link detected events with a precise source
+ 3)Add a way to easily share detected hotspots to social medias (e.g. Twitter)
